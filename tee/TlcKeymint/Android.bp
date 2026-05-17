@@ -55,6 +55,9 @@ cc_defaults {
         //ExySp
         "src/exynos_ssp_hwctl.cpp",
     ],
+    cflags: [
+        "-Wno-tautological-compare",
+    ],
     shared_libs: [
         "libhidlbase",
         "android.hardware.security.keymint-V2-ndk",

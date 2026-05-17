@@ -41,6 +41,9 @@ cc_defaults {
         //ExySp
         "src/exynos_ssp_hwctl.cpp",
     ],
+    cflags: [
+        "-Wno-tautological-compare",
+    ],
     local_include_dirs: [
         "include",
     ],

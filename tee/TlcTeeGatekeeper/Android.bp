@@ -44,6 +44,7 @@ gatekeeper_cc_library_shared {
         "-fpermissive",
         "-Wall",
         "-Werror",
+        "-Wno-tautological-compare",
         "-D__STDC_LIMIT_MACROS",
         "-D__FAILURE_RECORD_STORAGE_IN_SECURE_OBJECT__",
     ],
